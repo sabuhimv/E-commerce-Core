@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.my-container {
+  padding: 50px 100px;
+}
+
+
+/* FOOTER */
+.footer-icons-container{
+  padding: 10px;
+  padding-bottom: 6px;
+  background: #fbfbfb;
+  border: 1px solid #ebebeb;
+}
+.loginsignup-fields input{
+  height: 72px;
+  width: 100%;
+  padding-left: 20px;
+  border: 1px solid #c9c9c9;
+  outline: none;
+  color: #5c5c5c;
+  font-size: 18px;
+}
+
+/* DESCRIPTION BOX */
+.fade{
+  background: #FBFBFB;
+  color: #555;
+}
+/* CART ITEM */
+.cartitem-format-main{
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 75px;
+  padding: 20px 0px;
+  color: #454545;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cartitems-total-item{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  
+}
